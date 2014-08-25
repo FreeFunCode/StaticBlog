@@ -1,0 +1,11 @@
+﻿---
+layout: default
+title: My Jekyll Blog Demo
+---
+<h2>{{ page.title }}</h2>
+<p>这是一个用Jekyll在GitHub上搭建的博客</p>
+<ul>
+{% for post in site.posts %}
+　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
