@@ -4,14 +4,14 @@ pygments: true
 
 markdown: kramdown
 
-title : Linusp's Blog
+title : FreeFunCode's Blog
 author :
-  name : Linusp
-  email : linusp1024@gmail.com
-  github : Linusp
+  name : FunCode
+  email : 940286175@qq.com
+  github : FreeFunCode
 
 
-production_url : http://linusp.github.io
+production_url : http://FreeFunCode.github.com/StaticBlog
 
 nav:
   - text: 分类
