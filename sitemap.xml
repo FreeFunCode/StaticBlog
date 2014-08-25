@@ -26,11 +26,14 @@
     <loc>http://FreeFunCode.github.io/StaticBlog/link.html</loc>
     <priority>0.6</priority>
   </url>
+    <!--
   {% for post in site.posts %}
+
   <url>
     <loc>http://linusp.github.io{{ post.url }}</loc>
     <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
     <priority>0.8</priority>
   </url>
-  {% endfor %}
+
+  {% endfor %}  -->
 </urlset>
