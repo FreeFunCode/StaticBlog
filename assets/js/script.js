@@ -11,12 +11,12 @@ if ($(window).width() <= 1280) {
 }
 
 // Variables
-    tag1       = $('.pl__all'),
-    tag2       = $('.place_your_tag_name_here'),
-    tag3       = $('.place_your_tag_name_here'),
-    tag4       = $('.place_your_tag_name_here'),
-    tag5       = $('.place_your_tag_name_here'),
-    tag6       = $('.place_your_tag_name_here');
+    tag1       = $('.全部随笔'),
+    tag2       = $('.心情杂记'),
+    tag3       = $('.环境部署'),
+    tag4       = $('.前端样式'),
+    tag5       = $('.开发语言'),
+    tag6       = $('.开发感悟');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
