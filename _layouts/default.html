@@ -73,7 +73,7 @@
     <div class="topbar">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="/index.html">{{ site.title }}</a>
+          <a class="brand" href="/StaticBlog/index.html">{{ site.title }}</a>
           <ul class="nav">
 	    {% for link in site.nav %}
 	    {% assign active = nil %}
@@ -83,7 +83,9 @@
 	    <li><a href="/StaticBlog{{ link.url }}">{{ link.text }}</a></li>
 	    {% endif %}
 	    {% endfor %}
+		<!--
 	    <li><a href="/StaticBlog/atom.xml" target="_blank">Feed</a></li>
+		-->
           </ul>
         </div>
       </div>
