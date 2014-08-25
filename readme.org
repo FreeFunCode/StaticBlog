@@ -1,3 +1,6 @@
-* 静态网页博客
+* 这是一个静态网页博客，由Jekyll和GitHub pages制作的。
+* this is a demo Static Blog,Powered by Jekyll and Github Pages.
 
-博客园地址: http://www.cnblogs.com/bugzone/
+我的博客园地址: http://www.cnblogs.com/bugzone/
+
+注意：如果你直接clone到你的repo中，需要注意路径问题。this is a problem!
