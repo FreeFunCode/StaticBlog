@@ -1,11 +1,19 @@
-﻿---
-layout: default
-title: My Jekyll Blog Demo
 ---
-<h2>{{ page.title }}</h2>
-<p>这是一个用Jekyll在GitHub上搭建的博客</p>
-<ul>
-{% for post in site.posts %}
-　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+layout: default
+tagline: [计算机科学 人工智能 程序设计]
+---
+{% include JB/setup %}
+<div class="page-header">
+  <h1>文章列表 <small>{{ page.tagline }}</small></h1>
+</div>
+
+<div class="row">
+  <div class="span14">
+    <ul class="posts">
+      {% for post in site.posts %}
+      <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
